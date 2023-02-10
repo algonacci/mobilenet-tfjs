@@ -10,7 +10,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <h1 class="text-center mb-4"><strong>MobileNet TensorFlow.js</strong></h1>
+    <h1 class="text-center mt-4 mb-4">
+      <strong>MobileNet TensorFlow.js</strong>
+    </h1>
 
     <div class="text-center">
       <input
@@ -18,11 +20,11 @@
         name="file"
         onchange="loadFile(event)"
         required
-        class="mb-4"
+        class="mb-4 w-1/4 text-sm text-gray-900 border border-gray-300 rounded cursor-pointer bg-gray-50 focus:outline-none"
       />
     </div>
     <input
-      class="flex bg-blue-100 p-4 mb-4 rounded-lg text-center mx-auto hover:bg-blue-300"
+      class="flex bg-blue-100 p-2 mb-4 rounded-lg text-center mx-auto hover:bg-blue-300"
       type="submit"
       value="Predict!"
       id="submitImage"
